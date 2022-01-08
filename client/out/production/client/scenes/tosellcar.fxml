@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.01" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ToSellController">
+    <children>
+        <TextField fx:id="make" layoutX="30.0" layoutY="81.0" promptText="Марка" />
+        <TextField fx:id="model" layoutX="198.0" layoutY="81.0" promptText="Модель" />
+        <Button layoutX="198.0" layoutY="145.0" mnemonicParsing="false" onAction="#addsellCar" prefHeight="36.0" prefWidth="149.0" text="Сделать запрос" />
+        <Button layoutX="480.0" layoutY="241.0" mnemonicParsing="false" onAction="#goBack" prefHeight="25.0" prefWidth="67.0" text="Назад" />
+      <TextField fx:id="year" layoutX="365.0" layoutY="81.0" promptText="Год выпуска" />
+      <TextField fx:id="TypeOfBody" layoutX="30.0" layoutY="150.0" promptText="Тип кузова" />
+      <TextField fx:id="price" layoutX="365.0" layoutY="150.0" promptText="Стоимость" />
+    </children>
+</Pane>

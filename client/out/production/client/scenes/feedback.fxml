@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.01" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.Feedback">
+   <children>
+      <Text layoutX="39.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Администратор: Корхов Петр Витальевич, +375333838765, petr_korh@gmail.com" />
+      <Text layoutX="39.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Данные для обратной связи:                       " />
+      <Text layoutX="39.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" +375335678954" />
+      <Text layoutX="42.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+375446895678" />
+      <Text layoutX="42.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="+375446878978" />
+      <ChoiceBox fx:id="make" layoutX="518.0" layoutY="327.0" prefHeight="0.0" prefWidth="5.0" />
+      <Text layoutX="42.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" text="dealership@gmail.com" wrappingWidth="138.13671875" />
+      <Button  layoutX="501.0" layoutY="323.0" onAction="#goBack" prefHeight="33.0" prefWidth="65.0" text="Назад" />
+      <Text layoutX="42.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Контактные данные автосалона">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane prefHeight="300.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.01" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ActionManagerController">
+    <children>
+        <Button layoutX="223.0" layoutY="56.0" mnemonicParsing="false" onAction="#addSupplierOrder" prefHeight="59.0" prefWidth="122.0" text="Сделать заказ поставщику" textAlignment="CENTER" wrapText="true" />
+        <Button layoutX="378.0" layoutY="56.0" mnemonicParsing="false" onAction="#viewSupplierOrders" prefHeight="59.0" prefWidth="122.0" text="Посмотреть заказы поставщикам" textAlignment="CENTER" wrapText="true" />
+        <Button layoutX="63.0" layoutY="127.0" mnemonicParsing="false" onAction="#viewClientsOrders" prefHeight="59.0" prefWidth="122.0" text="Работать с заказами клиентов" textAlignment="CENTER" wrapText="true" />
+        <Button layoutX="509.0" layoutY="246.0" mnemonicParsing="false" onAction="#logOut" prefHeight="31.0" prefWidth="66.0" text="Выйти" textAlignment="CENTER" />
+        <Label fx:id="name" layoutX="29.0" layoutY="27.0" text="Label" />
+        <Button layoutX="223.0" layoutY="127.0" mnemonicParsing="false" onAction="#statistics" prefHeight="59.0" prefWidth="122.0" text="Посмотреть диаграмму заказов" textAlignment="CENTER" wrapText="true" />
+      <Button layoutX="63.0" layoutY="56.0" mnemonicParsing="false" onAction="#addModel" prefHeight="59.0" prefWidth="122.0" text="Добавить новую модель" textAlignment="CENTER" wrapText="true" />
+      <Button layoutX="378.0" layoutY="127.0" mnemonicParsing="false" onAction="#chart" prefHeight="59.0" prefWidth="122.0" text="Посмотреть график заказов" textAlignment="CENTER" wrapText="true" />
+      <Button layoutX="63.0" layoutY="202.0" mnemonicParsing="false" onAction="#Sellcars" prefHeight="59.0" prefWidth="122.0" text="Принять автомобиль" textAlignment="CENTER" wrapText="true" />
+      <Button layoutX="223.0" layoutY="202.0" mnemonicParsing="false" onAction="#ApproveALoan" prefHeight="59.0" prefWidth="122.0" text="Запросы на кредит" textAlignment="CENTER" />
+    </children>
+</Pane>
